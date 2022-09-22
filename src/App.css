@@ -118,7 +118,7 @@ label{
 .check{
   height: 4.5em;
   width: 4.5em;
-  background-image: url('../public/images/bg-card-front.png');
+  background-image: url('../public/images/icon-complete.svg');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 4.5em;

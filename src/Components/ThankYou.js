@@ -1,5 +1,4 @@
 import React from "react";
-
 function ThankYou(props) {
   return (
     <div className="thank--you--container">
