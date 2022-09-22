@@ -5,15 +5,15 @@
 }
 .bg-image-container{
   background-image: url('../public/images/bg-main-desktop.png');
-  height: 100%;
-  width: 27%;
+  height: 100vh;
+  width: 25%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg-card-back-container div{
   position: absolute;
-  top: 6.8em;
-  right: 4.1em;
+  top: 6.03em;
+  right: 3.5em;
   letter-spacing: .1em;
 }
 .bg-card-front-container{
@@ -23,22 +23,22 @@
   box-sizing: border-box;
   border-radius: 15px;
   padding: 2em;
-  width: 27.5em;
-  height: 15.5em;
+  width: 23em;
+  height: 13em;
   position: absolute;
-  top: 10em;
-  left: 18em;
+  top: 7em;
+  left: 13em;
   background-image: url('../public/images/bg-card-front.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg-card-back-container{
-  width: 27.5em;
-  height: 15.5em;
+  width: 24.5em;
+  height: 14.5em;
   border-radius: 15px;
   position: absolute;
-  top: 30em;
-  left: 22em;
+  top: 22.5em;
+  left: 18em;
   background-image: url('../public/images/bg-card-back.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -65,7 +65,7 @@
   justify-content: space-between;
   color: white;
   font-weight: 480;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-top: .5em;
 }
 .card--number--container span:nth-child(n+2){
@@ -75,7 +75,7 @@
   display: flex;
   justify-content: space-between;
   color: white;
-  font-size: .85em;
+  font-size: .75em;
   font-weight: 550;
 }
 .card--holder--container div:first-child{
@@ -84,7 +84,7 @@
 label{
   display: block;
   text-transform: uppercase;
-  font-size: .85em;
+  font-size: .8em;
   font-weight: 550;
   color: hsl(278, 68%, 11%);
   grid-column: 1 / span 4;
@@ -93,18 +93,18 @@ label{
 }
 .form--container{
   position: absolute;
-  top: 20em;
-  left: 65em;
-  width: 23em;
+  top: 12em;
+  right: 20em;
+  width: 20em;
   display: grid;
   row-gap: .5em;
   grid-template-columns: repeat(4, 1fr);
 }
 .thank--you--container{
   position: absolute;
-  top: 20em;
-  left: 65em;
-  width: 22em;
+  top: 13em;
+  right: 20em;
+  width: 20em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -132,7 +132,7 @@ label{
   font-weight: 550;
 }
 input{
-  height: 2.85em;
+  height: 2.7em;
   border-radius: .5em;
   padding-left: .7em;
   border: 1px solid darkgray;

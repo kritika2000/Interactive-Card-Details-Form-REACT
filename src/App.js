@@ -9,14 +9,14 @@ import ThankYou from "./Components/ThankYou";
 function App() {
   const [cardDetails, setCardDetails] = useState({
     cardHolderName: "Jane Appleseed",
-    cardNumber: "000000000000000",
+    cardNumber: "0000000000000000",
     month: "00",
     year: "00",
     cvv: "000",
   });
   const [confirmedCardDetails, setConfirmedCardDetails] = useState({
     cardHolderName: "Jane Appleseed",
-    cardNumber: "000000000000000",
+    cardNumber: "0000000000000000",
     month: "00",
     year: "00",
     cvv: "000",
@@ -38,14 +38,14 @@ function App() {
     toggleFormFilled();
     setCardDetails({
       cardHolderName: "Jane Appleseed",
-      cardNumber: "000000000000000",
+      cardNumber: "0000000000000000",
       month: "00",
       year: "00",
       cvv: "000",
     });
     setConfirmedCardDetails({
       cardHolderName: "Jane Appleseed",
-      cardNumber: "000000000000000",
+      cardNumber: "0000000000000000",
       month: "00",
       year: "00",
       cvv: "000",
